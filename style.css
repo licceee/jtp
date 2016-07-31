@@ -1,0 +1,99 @@
+body {
+	background-color: #FAEBD7;
+	margin:20;
+	padding:10;
+	font-family:arial;
+	font-size:0.8em;
+	color: #8b7765;
+}
+
+h1 {
+	text-align: center;
+    color: #8b7765;
+	font-size: 30;
+	font-weight: bold;
+}
+
+h2, h3 {
+	/*text-align: center;*/
+    color: #8b7765;/*#8b8b8b;*/
+	font-size: 20;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+/*
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+a { /* Link */
+	text-align: center;
+    color: #8b7d6b;
+	font-size: 20;
+	font-weight: bold;
+	text-decoration: none
+}
+p {
+	border-bottom: 2px solid #8b7765;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	margin-left: 10;
+	margin-right: 10;
+	width: 95%;
+	border-top: 2;
+	border-top-color: #8b7765;
+}
+
+script {
+	text-align: center;
+}
+/*________________________________________TEST_________________________________________*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8b7d6b;
+	text-align: center;
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #cd5b45;
+}
+
+.active {
+background-color:#cd5b45;
+}
+
+
+
+
+
+
+
+
+/* Comment */
